@@ -1,0 +1,47 @@
+
+<!-- saved from url=(0266)https://mp4-a.udemycdn.com/2016-11-10_08-55-57-3b4ea98e124ae6c99c5f29d926bb3aa8/original.html?ZLsCi1A1vDSnCOe9C_UvXsir4KZ7LLNA7sM4pp-Y82isEsRxQaOsf7o51aiZbMej98ZoA3fyDq28lZBrRnTIsHLWyBNaYroKY3GoF3y04PlnNXC8ZfECnqbRwerXtrdcingfXkuCl6pQ9rNEokg3tDlMY5CjA3IZ2poXx6-NvgAp -->
+<html>
+	<head>
+		<!-- <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> -->
+		<meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="/static/Css/style.css">
+        <script src="/static/JavaScript/RequestsServer.js" charset="utf-8"></script> 
+        <script src="/static/JavaScript/event.js" charset="utf-8"></script>
+        <script src="/static/JavaScript/cookieFun.js" charset="utf-8"></script>
+        <script src="/static/JavaScript/testGame.js" charset="utf-8"></script>
+        <script src="/static/JavaScript/table.js" charset="utf-8"></script>
+        <script src="/static/JavaScript/facebookFunction.js" charset="utf-8"></script> 
+    
+	</head>
+	<body>
+        <div class= "remove" id = "play">
+            <p><button class="new-game" onclick = "NewGame()"><i class="ion-ios-plus-outline"></i>New game</button></p>
+            <p><button class="send-button"  onclick = "NewTab()">New Tab</button></p>
+            <p><button class="send-button"  onclick = "ShareWhatsApp()"> Share a link to WhatsApp </button></p>
+            <p><div class="Thewinner remove" id="announcing-winner"></div></p>
+            <p><div class="winner" id="Sequence-for-victory"></div></p>
+	        <div class="show-player">
+                <div class="wrapper-1 active"> 
+                    <div class="player-1">
+                        <div class="player-name" id="name-1">Player 1</div>
+                    </div>
+                </div>
+                <div class="game remove" id="game"></div>
+                <div class="wrapper-2 not-active">
+                    <div class="player-2">
+                        <div id = div-casing-input-name-2>
+                            <p><input id ="input-name-2"  placeholder="Enter name user" onkeypress="EventEnter(event)"></p>
+                            <button class="send-button"  onclick = "saveName2()"  >send name</button>
+                        </div>
+                        <div id = "div-casing-name-2" class="remove">
+                            <div class="player-name" id="name-2">Waiting for player</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script src="/static/JavaScript/app.js" charset="utf-8"></script>
+	</body>
+</html>
